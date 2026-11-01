@@ -1,6 +1,6 @@
+    use burn::tensor::{Device, Tensor};
 pub fn basics() {
-     use burn::tensor::{Device, Tensor};
-        // Seleciona a CPU com a chamada do flex()
+         // Seleciona a CPU com a chamada do flex()
     let device = Device::flex();
     //Se for usar GPU, substitua a linha acima por:
     //let device = Device::wgpu(Default::default());
