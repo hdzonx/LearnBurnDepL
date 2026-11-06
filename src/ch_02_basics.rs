@@ -1,6 +1,6 @@
 use burn::tensor::{Device, Tensor};
 
-pub fn ch_02_basiccs() {
+pub fn ch_02_basics() {
     //Taredas:
     //1. Calcular a média de todas as notas.
     //2. Encontrar a maior nota.
